@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Assignment</title>
+</head>
+<body>
+    
+<header class="head">
+  
+    <section>
+      <nav class="nav">
+        <button class="link" data-nav="products">
+          Products
+        </button>
+        <button class="link" data-nav="developers">
+          Developers
+        </button>
+        <button class="link" data-nav="company">
+          Company
+        </button>
+      <nav>
+    </section>
+  
+    <div class="menu-box">
+      <div class="menu-content">
+
+        <!-- product menu-box-->
+        <section class="section section-products">
+            <div class="product-column">
+                <div>
+                  <h4>PAYMENTS</h4>
+                  <ul class="list-sub_title">
+                    <li>Payment</li>
+                    <li>Terminal</li>
+                    <li>Connect</li>
+                    <li>Billing</li>
+                  </ul>
+                </div> 
+                <div>
+                  <h4>PAYOUTS</h4>
+                  <ul class="list-sub_title">
+                    <li>Payout</li>
+                    <li>Issuing</li>
+                  </ul>
+                </div> 
+                <div>
+                    <h4>BUSINESS OPERATIONS</h4>
+                    <ul class="list-sub_title">
+                      <li>Radar</li>
+                      <li>Sigma</li>
+                      <li>Atlas</li>
+                    </ul>
+                  </div> 
+              </div>
+        </section>
+  
+        <!--developer menu-box -->
+        <section class="section section-developers">
+          <ul class="list">
+            <li>Documentation</li>
+          </ul>
+          <p class="sub_title">Start integrating Stripe's products and tools.</p>
+          <div class="column">
+            <div>
+              <h4>Get started</h4>
+              <ul class="list-sub_title">
+                <li>Prebuilt checkout</li>
+                <li>Libraries and SDKs</li>
+                <li>Plugins</li>
+                <li>Code samples</li>
+              </ul>
+            </div> 
+            <div>
+              <h4>GUIDES</h4>
+              <ul class="list-sub_title">
+                <li>Accept online payments</li>
+                <li>Manage subscriptions</li>
+                <li>Send payments</li>
+                <li>Set up in-person payments</li>
+              </ul>
+            </div> 
+          </div>
+        </section>
+  
+        <!-- company menu-box -->
+        <section class="section section-company">
+          <ul class="list">
+            <li><i data-feather="culture"></i>Culture</li>
+            <li><i data-feather="contact"></i>Contact</li>   
+            <li><i data-feather="carrers"></i>Careers</li>   
+          </ul>
+        </section>
+      </div>
+      <div class="background-style"></div>  
+      <div class="arr-model"></div>  
+    </div>
+  </header>
+    <script src="stripe-menu.js"></script>
+</body>
+</html>
